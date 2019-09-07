@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Test Started]]>
+    </line>
+    <line>
+      <![CDATA[User name enetred]]>
+    </line>
+    <line>
+      <![CDATA[Password entered]]>
+    </line>
+    <line>
+      <![CDATA[Login button clicked]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14445" started-at="2019-09-07T16:24:52Z" finished-at="2019-09-07T16:25:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14445" started-at="2019-09-07T16:24:52Z" finished-at="2019-09-07T16:25:07Z">
+      <class name="com.framework.testcases.LoginTestCase">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.framework.testcases.LoginTestCase@39ba5a14]" name="setupSuite" is-config="true" duration-ms="1229" started-at="2019-09-07T21:54:51Z" finished-at="2019-09-07T21:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.testcases.LoginTestCase@39ba5a14]" name="setup" is-config="true" duration-ms="10276" started-at="2019-09-07T21:54:52Z" finished-at="2019-09-07T21:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.framework.testcases.LoginTestCase@39ba5a14]" name="loginApp" duration-ms="686" started-at="2019-09-07T21:55:03Z" finished-at="2019-09-07T21:55:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Test Started]]>
+            </line>
+            <line>
+              <![CDATA[User name enetred]]>
+            </line>
+            <line>
+              <![CDATA[Password entered]]>
+            </line>
+            <line>
+              <![CDATA[Login button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.framework.testcases.LoginTestCase@39ba5a14]" name="tearDownMethod" is-config="true" duration-ms="1643" started-at="2019-09-07T21:55:03Z" finished-at="2019-09-07T21:55:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestCase.loginApp()[pri:0, instance:com.framework.testcases.LoginTestCase@39ba5a14] output=Login Test Started]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="testMethod2()[pri:0, instance:com.framework.testcases.LoginTestCase@39ba5a14]" name="testMethod2" duration-ms="1" started-at="2019-09-07T21:55:05Z" finished-at="2019-09-07T21:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.framework.testcases.LoginTestCase@39ba5a14]" name="tearDownMethod" is-config="true" duration-ms="1028" started-at="2019-09-07T21:55:05Z" finished-at="2019-09-07T21:55:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod2 status=SUCCESS method=LoginTestCase.testMethod2()[pri:0, instance:com.framework.testcases.LoginTestCase@39ba5a14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.framework.testcases.LoginTestCase@39ba5a14]" name="tearDown" is-config="true" duration-ms="789" started-at="2019-09-07T21:55:06Z" finished-at="2019-09-07T21:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.framework.testcases.LoginTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
